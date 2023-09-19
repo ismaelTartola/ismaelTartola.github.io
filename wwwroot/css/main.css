@@ -17,6 +17,10 @@ p {
   color: #333333;
 }
 
+.menu{
+    height:15vh;
+}
+
 .header {
   position:relative;
   text-align:center;
@@ -36,7 +40,7 @@ p {
 }
 
 .inner-header {
-  height:65vh;
+  height:30vh;
   width:100%;
   margin: 0;
   padding: 0;
@@ -63,6 +67,20 @@ p {
   height:20vh;
   text-align:center;
   background-color: white;
+}
+
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 12px;
+    width: 24px;
+    border-bottom: 7px solid green;
+    margin: 10px;
+    border-right: 7px solid Green;
+}
+
+.check-container{
+    height:20vh;
 }
 
 /* Animation */
@@ -107,5 +125,19 @@ p {
   }
   h1 {
     font-size:24px;
+  }
+  .navMenu {
+    position: absolute;
+    top: 5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
+  }
+
+  .check-container{
+    display: grid;
+  }
+
+  .navMenu a {
+   font-size: 0.9em;
   }
 }
