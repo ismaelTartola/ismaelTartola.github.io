@@ -5,82 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ismael Triana Artola - Highly motivated Senior Software Ingeneer & Development Manager</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 1em;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        .project {
-            margin-bottom: 2em;
-        }
-
-        .rounded-image {
-             border-radius: 50%; /* This will make the image perfectly round */
-             width: 100px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./wwwroot/css/main.css" />
 </head>
 
-<body>
-    <header>
-        <img src="./wwwroot/img/me.jpg" alt="This is me!!!!" class="rounded-image">
-        <p>Ismael Triana Artola</p>
-        <p>Senior Software Ingeneer & Development Manager</p>
-    </header>
 
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Highly motivated Senior Software Ingeneer & Development Manager.</p>
-        </section>
+<!--Hey! This is the original version
+of Simple CSS Waves-->
 
-        <section>
-            <h2>My Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
-            </div>
-            <!-- Add more projects as needed -->
-        </section>
+<div class="header">
 
-        <section>
-            <h2>Contact Me</h2>
-            <p>Email: ismaelt.artola@gmail.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ismael-triana-artola/">Find me in LinkedIn</a></p>
-            <!-- Add more contact information as needed -->
-        </section>
-    </main>
-</body>
-
+    <!--Content before waves-->
+    <div class="inner-header flex">
+    <!--Just the logo.. Don't mind this-->
+    <img class="logo" src="./wwwroot/img/me.jpg">
+    <h1>Hi. My name is Ismael </h1>
+    </div>
+    
+    <!--Waves Container-->
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+    <!--Waves end-->
+    
+    </div>
+    <!--Header ends-->
+    
+    <!--Content starts-->
+    <div class="content flex">
+      <p>Senior Software Ingeneer | Development Manager </p>
+    </div>
+    <!--Content ends-->    
+    
 </html>
